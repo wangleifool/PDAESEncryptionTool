@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3B99F6632489EC0C00C06ED2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B99F6622489EC0C00C06ED2 /* main.swift */; };
+		3B99F66A2489F1A700C06ED2 /* RNCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B99F6692489F1A600C06ED2 /* RNCryptor.swift */; };
+		3B99F66C2489F5A400C06ED2 /* PDEncrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B99F66B2489F5A400C06ED2 /* PDEncrypt.swift */; };
+		3B99F66E248A0AF700C06ED2 /* ConsoleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B99F66D248A0AF700C06ED2 /* ConsoleIO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		3B99F65F2489EC0B00C06ED2 /* PDAESEncryptTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PDAESEncryptTool; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B99F6622489EC0C00C06ED2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3B99F6692489F1A600C06ED2 /* RNCryptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNCryptor.swift; sourceTree = "<group>"; };
+		3B99F66B2489F5A400C06ED2 /* PDEncrypt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDEncrypt.swift; sourceTree = "<group>"; };
+		3B99F66D248A0AF700C06ED2 /* ConsoleIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleIO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,10 @@
 		3B99F6612489EC0C00C06ED2 /* PDAESEncryptTool */ = {
 			isa = PBXGroup;
 			children = (
+				3B99F6692489F1A600C06ED2 /* RNCryptor.swift */,
 				3B99F6622489EC0C00C06ED2 /* main.swift */,
+				3B99F66B2489F5A400C06ED2 /* PDEncrypt.swift */,
+				3B99F66D248A0AF700C06ED2 /* ConsoleIO.swift */,
 			);
 			path = PDAESEncryptTool;
 			sourceTree = "<group>";
@@ -121,6 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B99F6632489EC0C00C06ED2 /* main.swift in Sources */,
+				3B99F66E248A0AF700C06ED2 /* ConsoleIO.swift in Sources */,
+				3B99F66A2489F1A700C06ED2 /* RNCryptor.swift in Sources */,
+				3B99F66C2489F5A400C06ED2 /* PDEncrypt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
